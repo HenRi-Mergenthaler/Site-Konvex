@@ -100,11 +100,11 @@
     <!--                   Hero                       -->
     <!-- ============================================ -->
 
-    <section id="hero-408">
+    <section id="hero-408" >
         <div class="cs-container">
             <div class="cs-content">
                 <h2 class="cs-title"><span class="cs-color">Transformamos Conhecimento</span> em Impacto Real</h2>
-                <p class="cs-text">
+                <p class="cs-text" style="line-height: 1.5em; font-size: 1.75rem; text-align: justify; color: black;">
                     Desde 1996, unimos inovação, excelência técnica e espírito empreendedor para impulsionar empresas,
                     formar líderes e transformar a sociedade. Conheça a Konvex Júnior: onde ideias se tornam soluções.
                 </p>
@@ -441,55 +441,67 @@
 
     </section>
 
-    <p><br><br><br><br><br><br></p>
+    <!-- ============================================ -->
+<!--                  Timeline                    -->
+<!-- ============================================ -->
 
-
-
-    <div class="swiper">
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <img class="imagem_carrossel"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Duck_wings_outstretched.jpg/1280px-Duck_wings_outstretched.jpg"
-                    alt="Imagem">
+<section id="timeline-1517">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper" style="color: var(--primary)">Konvex jr</span>
+                <h2 class="cs-title">Nossa linha do tempo</h2>
+                <p class="cs-text" style="line-height: 1.5em; font-size: 1.25rem; text-align: justify; color: black;">
+                    Nossa linha do tempo mostra os feitos que marcaram nossa história, evidenciando cada passo da nossa evolução. Ela representa o crescimento, os aprendizados e as conquistas que construíram quem somos hoje, servindo como inspiração para continuarmos gerando impacto com ainda mais propósito.
+                </p>
             </div>
-            <div class="swiper-slide">
-                <img class="imagem_carrossel"
-                    src="https://xamanismoseteraios.com.br/wp-content/uploads/2021/07/dolphin-1019616_1920.jpg"
-                    alt="Imagem">
+            <div class="cs-image-group">
+                <!--Cert 1-->
+                <picture class="cs-picture">
+                    <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/cert1.png" alt="certification" width="199" height="140" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
+                <!--Cert 2-->
+                <picture class="cs-picture">
+                    <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/cert2.png" alt="certification" width="199" height="140" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
+                <!--Cert 3-->
+                <picture class="cs-picture">
+                    <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/cert2.png" alt="certification" width="199" height="140" loading="lazy" decoding="async" aria-hidden="true">
+                </picture>
             </div>
-            <div class="swiper-slide">Slide 3</div>
         </div>
-
-        <!-- Botões de navegação -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-
-        <!-- Paginação -->
-        <div class="swiper-pagination"></div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <span class="cs-date">July 2018</span>
+                <h3 class="cs-h3">Computer Science</h3>
+                <p class="cs-item-text">
+                    Canadian National University
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-date">July 2018</span>
+                <h3 class="cs-h3">Computer Science</h3>
+                <p class="cs-item-text">
+                    Canadian National University
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-date">July 2018</span>
+                <h3 class="cs-h3">Computer Science</h3>
+                <p class="cs-item-text">
+                    Canadian National University
+                </p>
+            </li>
+            <li class="cs-item">
+                <span class="cs-date">July 2018</span>
+                <h3 class="cs-h3">Computer Science</h3>
+                <p class="cs-item-text">
+                    Canadian National University
+                </p>
+            </li>
+        </ul>
     </div>
-
-
-    <!-- CSS do Swiper -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- JS do Swiper -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/global.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            slidesPerView: 1,
-            spaceBetween: 20,
-        });
-    </script>
+</section>
 </body>
 
 </html>
