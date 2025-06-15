@@ -11,28 +11,21 @@
 
 <body>
 
-    <!-- ============================================ -->
-    <!--                 Navigation                   -->
-    <!-- ============================================ -->
+    <!--HEADER-->
 
     <header id="cs-navigation">
         <div class="cs-container">
-            <!--Nav Logo-->
-            <!--Logo is turned white in the css with a filter on dark mode-->
             <a href="" class="cs-logo" aria-label="back to home">
                 <img src="imgs/Horizontal-Original.png" alt="logo" aria-hidden="true" decoding="async">
             </a>
-            <!--Navigation List-->
             <nav class="cs-nav" role="navigation">
-                <!--Mobile Nav Toggle-->
-                <button class="cs-toggle" aria-label="mobile menu toggle">
+               <button class="cs-toggle" aria-label="mobile menu toggle">
                     <div class="cs-box" aria-hidden="true">
                         <span class="cs-line cs-line1" aria-hidden="true"></span>
                         <span class="cs-line cs-line2" aria-hidden="true"></span>
                         <span class="cs-line cs-line3" aria-hidden="true"></span>
                     </div>
                 </button>
-                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
                 <div class="cs-ul-wrapper">
                     <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
                         <li class="cs-li">
@@ -45,7 +38,6 @@
                                 Sobre Nós
                             </a>
                         </li>
-                        <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
                         <li class="cs-li cs-dropdown" tabindex="0">
                             <span class="cs-li-link">
                                 Serviços
@@ -94,79 +86,67 @@
                     </a>
                 </div>
             </div>
-
     </header>
-    <!-- ============================================ -->
-    <!--                   Hero                       -->
-    <!-- ============================================ -->
 
-    <section id="hero-408">
+    <!--BLOCO 1-->
+    
+    <section id="hero-408" style="padding-bottom: 0;" >
         <div class="cs-container">
             <div class="cs-content">
                 <h2 class="cs-title"><span class="cs-color">Transformamos Conhecimento</span> em Impacto Real</h2>
                 <p class="cs-text">
                     Desde 1996, unimos inovação, excelência técnica e espírito empreendedor para impulsionar empresas,
-                    formar líderes e transformar a sociedade. Conheça a Konvex Júnior: onde ideias se tornam soluções.
-                </p>
+                    formar líderes e transformar a sociedade. Conheça a Konvex Júnior: onde ideias se tornam soluções.</p>
                 <a href="" class="cs-button-solid">Contato</a>
                 <a href="" class="cs-button-transparent">Nossos Serviços</a>
-
             </div>
             <div class="cs-stat-group">
                 <picture class="cs-background">
                     <source media="(max-width: 600px)" srcset="imgs/index/time.jpg">
                     <source media="(min-width: 601px)" srcset="imgs/index/time.jpg">
-                    <img loading="lazy" decoding="async" src="imgs/index/time.jpg" alt="leaves" width="842" height="737"
-                        aria-hidden="true">
+                    <img loading="lazy" decoding="async" src="imgs/index/time.jpg" alt="leaves" width="842" height="737" aria-hidden="true">
                 </picture>
             </div>
         </div>
     </section>
-    <!-- ============================================ -->
-    <!--                Side By Side                  -->
-    <!-- ============================================ -->
-
-    <section id="RPsbs-1593">
+    
+    <!-- BLOCO 2/3-->
+    
+    <section id="RPsbs-1593" style="padding-bottom: 0;">
         <div class="cs-container">
             <div>
-                <!--Top left image-->
-                <picture style="justify-content: center; width: 80%;">
-                    <!--Mobile Image-->
+                <picture class="cs-picturee">
                     <source media="(max-width: 600px)"
                         srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
-                    <!--Tablet and above Image-->
                     <source media="(min-width: 601px)"
                         srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
                     <img loading="lazy" decoding="async"
                         src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg" alt="mechanic"
                         width="413" height="500" style="margin-left: 100px;">
                 </picture>
-
             </div>
             <div class="cs-content">
                 <span class="cs-topper">Konvex jr.</span>
                 <h2 class="cs-title">Nossa História</h2>
-                <p class="cs-text-large" style="line-height: 1.5em; font-size: 1.25rem; text-align: justify ;">
-                    Fundada em 1996, a Konvex Consultoria nasceu com o propósito de integrar o conhecimento técnico à
-                    prática empresarial. Criada dentro da UDESC/CCT em Joinville/SC, desde o início atua nas áreas de
-                    Engenharia Elétrica, Engenharia Mecânica e Tecnologia da Informação, promovendo impacto real em
-                    empresas, no meio acadêmico e na sociedade.
-                    <br>
-                    <br>
-                    Com mais de 160 projetos realizados, contribuímos para a melhoria de processos, aumento de
-                    lucratividade e desenvolvimento social. Nossa trajetória é marcada pela formação de líderes, hoje
-                    presentes em grandes empresas, conduzindo projetos de alto valor agregado ou empreendendo com
-                    sucesso.
+                <p class="cs-text-large">
+                        Fundada em 1996, a Konvex Consultoria nasceu com o propósito de integrar o conhecimento técnico à
+                        prática empresarial. Criada dentro da UDESC/CCT em Joinville/SC, desde o início atua nas áreas de
+                        Engenharia Elétrica, Engenharia Mecânica e Tecnologia da Informação, promovendo impacto real em
+                        empresas, no meio acadêmico e na sociedade.
+                        <br>
+                        <br>
+                        Com mais de 160 projetos realizados, contribuímos para a melhoria de processos, aumento de
+                        lucratividade e desenvolvimento social. Nossa trajetória é marcada pela formação de líderes, hoje
+                        presentes em grandes empresas, conduzindo projetos de alto valor agregado ou empreendendo com
+                        sucesso.
                 </p>
             </div>
         </div>
-
         <div class="cs-container">
-
             <div class="cs-content">
                 <span class="cs-topper">konvex jr.</span>
                 <h2 class="cs-title">Evolução e Transformação</h2>
-                <p class="cs-text-large" style="line-height: 1.5em; font-size: 1.25rem; text-align: justify ;">
+                <p class="cs-text-large">
                     Sempre em sintonia com a inovação, em 2020, a Konvex passou por uma profunda renovação: reformulamos
                     nossa identidade visual, modernizamos nossa sede e nos consolidamos como Konvex Júnior. Essa
                     transformação reforçou nossa missão de impulsionar ideias, desenvolver talentos e gerar impacto
@@ -180,39 +160,33 @@
             </div>
             <div class="">
                 <div>
-                    <!--Top left image-->
-                    <picture style="justify-content: center; width: 80%;">
-                        <!--Mobile Image-->
-                        <source media="(max-width: 600px)"
+                    <picture class="cs-picturee">
+                       <source media="(max-width: 600px)"
                             srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
-                        <!--Tablet and above Image-->
                         <source media="(min-width: 601px)"
                             srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg">
                         <img loading="lazy" decoding="async"
                             src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/ecommerce/models1.jpg"
                             alt="mechanic" width="413" height="500" style="margin-right: 100px;">
                     </picture>
-
                 </div>
             </div>
         </div>
     </section>
-    <!-- ============================================ -->
-    <!--                    Stats                     -->
-    <!-- ============================================ -->
-
-    <section id="stats-888">
+    
+    <!-- BLOCO 4-->
+    
+    <section id="stats-888" style="padding-bottom: 0; padding-top: 0;">
         <div class="cs-container">
             <div class="cs-content">
                 <span class="cs-topper">konvex jr.</span>
                 <h2 class="cs-title">Nossos Valores</h2>
-                <p class="cs-text-large" style="line-height: 1.5em; font-size: 1.25rem; text-align: justify;">
+                <p class="cs-text-large">
                     União, compromisso, Proatividade, Transparencia, Ambição e Orgulho
                 </p>
-                <p class="cs-text-large" style="line-height: 1.5em; font-size: 1.25rem; text-align: justify;">
+                <p class="cs-text-large">
                     São os princípios que unem os membros, orientam o propósito do trabalho e fortalecem o compromisso com o crescimento pessoal, impacto social e excelência nos projetos.
-                </p>
-            
+                </p>            
             </div>
             <ul class="cs-card-group">
                 <li class="cs-item">
@@ -236,27 +210,21 @@
             </ul>
         </div>
     </section>
-    <!--Add aqui -->
-    <!-- ============================================ -->
-    <!--             Side by Side Reverse             -->
-    <!-- ============================================ -->
 
-    <section id="sbs-r-1892">
+    <!-- BLOCO 5 -->
+    
+    <section id="sbs-r-1892" style="padding-bottom: 0;">
         <div class="cs-container">
             <div class="cs-image-group">
                 <picture class="cs-picture">
-                    <!--Mobile Image-->
                     <source media="(max-width: 600px)"
-                        srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/derma-sbs-1.png">
-                    <!--Tablet and above Image-->
+                        srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/derma-sbs-1.png">                    
                     <source media="(min-width: 601px)"
                         srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/derma-sbs-1.png">
                     <img loading="lazy" decoding="async"
                         src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/derma-sbs-1.png"
                         alt="dermatologist" width="324" height="467">
                 </picture>
-
-
             </div>
             <div class="cs-content">
                 <div class="cs-flex">
@@ -265,43 +233,36 @@
                     <h2 class="cs-title">O que nos motiva?</h2>
                 </div>
                 <h4 class="titulo_meio">Nossa missão:</h4>
-                <p class="cs-text-large" style="text-align: justify;">
+                <p class="cs-text-large">
                     Nosso propósito é desenvolver lideranças verdadeiramente comprometidas, preparadas para enfrentar os
                     desafios do mundo real e capazes de transformar o Brasil por meio da vivência empresarial.<br>
                     Queremos formar pessoas que não apenas ocupem posições de liderança, mas que sejam protagonistas da
                     mudança, deixando um legado positivo em suas empresas, comunidades e na sociedade como um todo.
                 </p>
                 <h4 class="titulo_meio">Nossa visão:</h4>
-
-                <p class="cs-text-large" style="text-align: justify;">
+                <p class="cs-text-large">
                     Buscamos impactar a sociedade e o mercado formando membros altamente capacitados, que atuem com
                     excelência e protagonismo. Por meio de soluções inovadoras, queremos gerar transformação real,
                     contribuindo para o desenvolvimento sustentável de pessoas, organizações e do nosso país.
                 </p>
-
             </div>
         </div>
     </section>
 
-    <!-- ============================================ -->
-    <!--                  Services                    -->
-    <!-- ============================================ -->
+    <!-- BLOCO 6 -->
 
-    <section id="services-1829">
+    <section id="services-1829" style="padding-top: 10px; padding-bottom: 0;">
         <div class="cs-container">
             <div class="cs-content">
                 <span class="cs-topper">KONVEX JR</span>
                 <h2 class="cs-title">Conheça nosso time!</h2>
-
             </div>
             <ul class="cs-card-group">
                 <li class="cs-item">
                     <a href="" class="cs-link">
-                        <picture class="cs-picture">
-                            <!--Mobile Image-->
+                        <picture class="cs-picture">  
                             <source media="(max-width: 600px)"
-                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm1.png">
-                            <!--Tablet and above Image-->
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm1.png">  
                             <source media="(min-width: 601px)"
                                 srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm1.png">
                             <img loading="lazy" decoding="async"
@@ -315,12 +276,10 @@
                 </li>
                 <li class="cs-item">
                     <a href="" class="cs-link">
-                        <picture class="cs-picture">
-                            <!--Mobile Image-->
-                            <source media="(max-width: 600px)" srcset=" imgs/download.jpeg">
-                            <!--Tablet and above Image-->
-                            <source media="(min-width: 601px)" srcset="imgs/download.jpeg">
-                            <img loading="lazy" decoding="async" src="imgs/download.jpeg" alt="person" width="300"
+                        <picture class="cs-picture">         
+                            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm2.png">                           
+                            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm2.png">
+                            <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm2.png" alt="person" width="300"
                                 height="500">
                         </picture>
                         <div class="cs-flex">
@@ -331,10 +290,8 @@
                 <li class="cs-item">
                     <a href="" class="cs-link">
                         <picture class="cs-picture">
-                            <!--Mobile Image-->
                             <source media="(max-width: 600px)"
-                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm3.png">
-                            <!--Tablet and above Image-->
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm3.png">     
                             <source media="(min-width: 601px)"
                                 srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm3.png">
                             <img loading="lazy" decoding="async"
@@ -349,10 +306,8 @@
                 <li class="cs-item">
                     <a href="" class="cs-link">
                         <picture class="cs-picture">
-                            <!--Mobile Image-->
                             <source media="(max-width: 600px)"
                                 srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm4.png">
-                            <!--Tablet and above Image-->
                             <source media="(min-width: 601px)"
                                 srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm4.png">
                             <img loading="lazy" decoding="async"
@@ -366,11 +321,9 @@
                 </li>
                 <li class="cs-item">
                     <a href="" class="cs-link">
-                        <picture class="cs-picture">
-                            <!--Mobile Image-->
+                        <picture class="cs-picture">           
                             <source media="(max-width: 600px)"
-                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm1.png">
-                            <!--Tablet and above Image-->
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm1.png">                      
                             <source media="(min-width: 601px)"
                                 srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm1.png">
                             <img loading="lazy" decoding="async"
@@ -384,11 +337,9 @@
                 </li>
                 <li class="cs-item">
                     <a href="" class="cs-link">
-                        <picture class="cs-picture">
-                            <!--Mobile Image-->
+                        <picture class="cs-picture">  
                             <source media="(max-width: 600px)"
-                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm2.png">
-                            <!--Tablet and above Image-->
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm2.png">                        
                             <source media="(min-width: 601px)"
                                 srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm2.png">
                             <img loading="lazy" decoding="async"
@@ -402,11 +353,9 @@
                 </li>
                 <li class="cs-item">
                     <a href="" class="cs-link">
-                        <picture class="cs-picture">
-                            <!--Mobile Image-->
+                        <picture class="cs-picture">        
                             <source media="(max-width: 600px)"
-                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm3.png">
-                            <!--Tablet and above Image-->
+                                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm3.png">   
                             <source media="(min-width: 601px)"
                                 srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm3.png">
                             <img loading="lazy" decoding="async"
@@ -421,10 +370,8 @@
                 <li class="cs-item">
                     <a href="" class="cs-link">
                         <picture class="cs-picture">
-                            <!--Mobile Image-->
                             <source media="(max-width: 600px)"
                                 srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm4.png">
-                            <!--Tablet and above Image-->
                             <source media="(min-width: 601px)"
                                 srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/derm4.png">
                             <img loading="lazy" decoding="async"
@@ -438,58 +385,64 @@
                 </li>
             </ul>
         </div>
-
     </section>
 
-    <p><br><br><br><br><br><br></p>
+<!-- BLOCO 7 -->
 
-
-
-    <div class="swiper">
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <img class="imagem_carrossel"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Duck_wings_outstretched.jpg/1280px-Duck_wings_outstretched.jpg"
-                    alt="Imagem">
+    <section id="timeline-1517" style="padding-top: 70px">
+        <div class="cs-container">
+            <div class="cs-content">
+                <div class="cs-flex">
+                    <span class="cs-topper">Konvex jr</span>
+                    <h2 class="cs-title">Nossa linha do tempo</h2>
+                    <p class="cs-text-large">
+                        Nossa linha do tempo mostra os feitos que marcaram nossa história, evidenciando cada passo da nossa evolução. Ela representa o crescimento, os aprendizados e as conquistas que construíram quem somos hoje, servindo como inspiração para continuarmos gerando impacto com ainda mais propósito.
+                    </p>
+                </div>
+                <div class="cs-image-group">
+                    <picture class="cs-picture">
+                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/cert1.png" alt="certification" width="199" height="140" loading="lazy" decoding="async" aria-hidden="true">
+                    </picture>
+                    <picture class="cs-picture">
+                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/cert2.png" alt="certification" width="199" height="140" loading="lazy" decoding="async" aria-hidden="true">
+                    </picture>
+                    <picture class="cs-picture">
+                        <img src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/cert2.png" alt="certification" width="199" height="140" loading="lazy" decoding="async" aria-hidden="true">
+                    </picture>
+                </div>
             </div>
-            <div class="swiper-slide">
-                <img class="imagem_carrossel"
-                    src="https://xamanismoseteraios.com.br/wp-content/uploads/2021/07/dolphin-1019616_1920.jpg"
-                    alt="Imagem">
-            </div>
-            <div class="swiper-slide">Slide 3</div>
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <span class="cs-date">July 2018</span>
+                    <h3 class="cs-h3">Computer Science</h3>
+                    <p class="cs-item-text">
+                        Canadian National University
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-date">July 2018</span>
+                    <h3 class="cs-h3">Computer Science</h3>
+                    <p class="cs-item-text">
+                        Canadian National University
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-date">July 2018</span>
+                    <h3 class="cs-h3">Computer Science</h3>
+                    <p class="cs-item-text">
+                        Canadian National University
+                    </p>
+                </li>
+                <li class="cs-item">
+                    <span class="cs-date">July 2018</span>
+                    <h3 class="cs-h3">Computer Science</h3>
+                    <p class="cs-item-text">
+                        Canadian National University
+                    </p>
+                </li>
+            </ul>
         </div>
+    </section>
 
-        <!-- Botões de navegação -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-
-        <!-- Paginação -->
-        <div class="swiper-pagination"></div>
-    </div>
-
-
-    <!-- CSS do Swiper -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- JS do Swiper -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/global.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            loop: true,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            slidesPerView: 1,
-            spaceBetween: 20,
-        });
-    </script>
 </body>
-
 </html>
